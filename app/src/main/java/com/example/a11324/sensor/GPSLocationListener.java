@@ -1,0 +1,29 @@
+package com.example.a11324.sensor;
+
+import android.location.Location;
+import android.os.Bundle;
+
+/**
+ * 类描述：供外部实现的接口
+ * Created by lizhenya on 2016/9/12.
+ */
+public interface GPSLocationListener {
+    /**
+     * 方法描述：位置信息发生改变时被调用
+     *
+     * @param location 更新位置后的新的Location对象
+     */
+    void UpdateLocation(Location location);
+
+    /**
+     * 方法描述：provider定位源类型变化时被调用
+     *
+     * @param provider provider的类型
+     * @param status   provider状态
+     * @param extras   provider的一些设置参数（如高精度、低功耗等）
+     */
+    void UpdateStatus(String provider, int status, Bundle extras);
+
+
+    void UpdateGPSProviderStatus(int gpsStatus);
+}

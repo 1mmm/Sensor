@@ -1,0 +1,202 @@
+<LinearLayout 
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+   	 	android:orientation="vertical"
+    	android:background="@drawable/background"
+    	android:id="@+id/layout"
+    >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" 
+    android:id="@+id/layout1"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Gait Authentification System"
+         android:textSize="20sp"
+        android:textColor="#FFFFFF" />
+  
+     </LinearLayout>
+    
+<LinearLayout 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="@dimen/activity_horizontal_margin"
+    	android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" 
+    	android:orientation="vertical"
+    	android:id="@+id/layout2"
+     >
+     
+    <TextView 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="Accelerator:"
+    	android:textColor="#003366"    
+        />  
+    <TextView
+    	android:id="@+id/Acc_x"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textColor="#003366"/>
+    <TextView 
+     	android:id="@+id/Acc_y"
+     	android:layout_width="wrap_content"
+   	 	android:layout_height="wrap_content"
+     	android:textColor="#003366"  
+        />
+    <TextView
+        android:id="@+id/Acc_z"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+   	  	android:textColor="#003366"/>
+    </LinearLayout>
+   
+    
+<LinearLayout 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="@dimen/activity_horizontal_margin"
+    	android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" 
+    	android:orientation="vertical"
+    	android:id="@+id/layout3"
+     >
+    <TextView 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="Gyroscope:"
+    	android:textColor="#003366"    
+        />  
+        <TextView
+    	android:id="@+id/Gyr_x"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textColor="#003366"/>
+    <TextView 
+     	android:id="@+id/Gyr_y"
+     	android:layout_width="wrap_content"
+   	 	android:layout_height="wrap_content"
+     	android:textColor="#003366"  
+        />
+    <TextView
+        android:id="@+id/Gyr_z"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+   	  	android:textColor="#003366"/>
+    </LinearLayout>
+    
+<LinearLayout 
+   		 android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="@dimen/activity_horizontal_margin"
+    	android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" 
+    	android:orientation="vertical"
+    	android:id="@+id/layout4"
+    >
+    <TextView 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="Barometer:"
+    	android:textColor="#003366"    
+        />  
+    <TextView
+        android:id="@+id/Pres_v"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+   	  	android:textColor="#003366"/>
+    
+     <TextView
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="0.27" />
+    </LinearLayout>
+     <LinearLayout 
+   		 android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="@dimen/activity_horizontal_margin"
+    	android:paddingBottom="@dimen/activity_horizontal_margin"
+    	android:paddingLeft="@dimen/activity_horizontal_margin"
+    	android:paddingRight="@dimen/activity_horizontal_margin"
+    	android:orientation="vertical" 
+    	android:gravity="center_horizontal" 
+    	>	
+    	    </LinearLayout>
+     <LinearLayout 
+   		 android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="@dimen/activity_horizontal_margin"
+    	android:paddingRight="@dimen/activity_horizontal_margin"
+    	android:orientation="vertical" 
+    	android:gravity="center_horizontal" 
+    	>	
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请输入服务器地址"
+        android:textColor="#003366" />
+ <EditText 
+    android:id="@+id/host"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="10.133.156.94"
+    />
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请输入用户名"
+        android:textColor="#003366" />
+<EditText 
+    android:id="@+id/fileName_editText"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    />
+</LinearLayout>
+<LinearLayout 
+   		 android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="@dimen/activity_horizontal_margin"
+    	android:paddingRight="@dimen/activity_horizontal_margin"
+    	android:orientation="horizontal"
+    	android:gravity="center_horizontal"  
+    >
+<Button
+    android:id="@+id/connect"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/connect" />
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Start" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Stop" />
+
+<Button
+    android:id="@+id/register"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Register" />
+    </LinearLayout>
+
+
+</LinearLayout>
